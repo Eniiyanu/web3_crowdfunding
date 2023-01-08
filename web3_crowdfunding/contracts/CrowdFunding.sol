@@ -49,6 +49,12 @@ contract CrowdFunding {
     function getDonators( uint256 _id) view public returns (address[] memory, uint256[] memory) {
         return (campaigns[_id].donators, campaigns[_id].donations);
     }
-
-    function getCampaigns() {}
+ 
+    function getCampaigns() public view return (Campaign[] memory) {
+        Campaign[] memory allCampaigns = new Campaign[](numberOfCampaigns);
+        for (uint256 i = 0; i < numberOfCampaigns; i++) {
+            allCampaigns[i] = campaigns[i];
+        }
+        return allCampaigns;
+    }
 }
