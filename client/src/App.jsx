@@ -2,6 +2,7 @@ import React from "react";
 import {Route, Routes} from 'react-router-dom'
 
 import { CreateCampaign, CampaignDetails, Home, Profile } from './pages';
+import './index.css';
 
 const App = () => {
     return (
