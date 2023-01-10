@@ -58,7 +58,7 @@ const CreateCampaign = () => {
           />
           <FormField 
             labelName="Campaign Title *"
-            placeholder="Write a title"
+            placeholder="Write a title for your campaign"
             inputType="text"
             value={form.title}
             handleChange={(e) => handleFormFieldChange('title', e)}
