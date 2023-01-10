@@ -29,9 +29,9 @@ export const StateContextProvider = ({ children }) => {
         address, // owner
         form.title, // title
         form.description, // description
-        form.target,
+        form.target, //target
         new Date(form.deadline).getTime(), // deadline,
-        form.image,
+        form.image, //image
       ]);
 
       console.log("Contract call success", data);
