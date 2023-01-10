@@ -26,18 +26,18 @@ const CreateCampaign = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+// check if image uploaded
     checkIfImage(form.image, async (exists) => {
       if (exists) {
         setIsLoading(true);
         await createCampaign({
           ...form,
-          target: ethers.utils.parseUnits(form.target, 18),
+          target: ethers.utils.parseUnits(form.target, 15),
         });
         setIsLoading(false);
         navigate("/");
       } else {
-        alert("Provide valid image URL");
+        alert("Provide valid image URL for campaign");
         setForm({ ...form, image: "" });
       }
     });
