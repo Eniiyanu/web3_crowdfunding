@@ -35,14 +35,14 @@ const Navbar = () => {
 
         <Link to="/profile">
           <div className="w-[52px] h-[52px] rounded-full bg-[#2c2f32] flex justify-center items-center cursor-pointer">
-            <img src={thirdweb} alt="user" className="w-[60%] h-[60%] object-contain" />
+            <img src={thirdweb} alt="user" className="w-[60%] h-[69%] object-contain" />
           </div>
         </Link>
       </div>
 
       {/* Small screen navigation */}
         <div className="sm:hidden flex justify-between items-center relative">
-        <div className="w-[40px] h-[40px] rounded-[10px] bg-[#2c2f32] flex justify-center items-center cursor-pointer">
+        <div className="w-[60px] h-[40px] rounded-[30px] bg-[#2c2f32] flex justify-center items-center cursor-pointer">
             <img src={logo} alt="user" className="w-[60%] h-[60%] object-contain" />
           </div>
 
