@@ -67,7 +67,7 @@ const CreateCampaign = () => {
 
         <FormField 
             labelName="Story *"
-            placeholder="Write your story"
+            placeholder="Write your campaign story"
             isTextArea
             value={form.description}
             handleChange={(e) => handleFormFieldChange('description', e)}
