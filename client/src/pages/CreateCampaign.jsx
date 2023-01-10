@@ -80,7 +80,7 @@ const CreateCampaign = () => {
 
         <div className="flex flex-wrap gap-[40px]">
           <FormField 
-            labelName="Goal *"
+            labelName=" Campaign Goal *"
             placeholder="ETH 0.50"
             inputType="text"
             value={form.target}
