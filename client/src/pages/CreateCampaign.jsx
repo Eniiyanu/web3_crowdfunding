@@ -86,7 +86,7 @@ const CreateCampaign = () => {
             className="w-[40px] h-[40px] object-contain"
           />
           <h4 className="font-epilogue font-bold lg:text-[25px] text-white ml-[20px]">
-            You will get 100% of the raised amount
+            You will get 100% of the raised amount after the campaign
           </h4>
         </div>
 
