@@ -8,6 +8,7 @@ import { CustomButton, FormField, Loader } from "../components";
 import { checkIfImage } from "../utils";
 
 
+// Constant declaration
 const Nft = () => {
   return (
     <div>Nft</div>
