@@ -11,7 +11,7 @@ import { checkIfImage } from "../utils";
 // Constant declaration
 const Nft = () => {
   return (
-    <div>Nft</div>
+    <div>NFT</div>
   )
 }
 
